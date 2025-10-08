@@ -1,0 +1,72 @@
+name: Build QA APK
+
+on:
+  push:
+    branches:
+      - qa
+  pull_request:
+    branches:
+      - qa
+  workflow_dispatch:
+
+jobs:
+  build-qa:
+    name: Build QA APK
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        
+      - name: Set up JDK 17
+        uses: actions/setup-java@v4
+        with:
+          java-version: '17'
+          distribution: 'temurin'
+          cache: gradle
+          
+      - name: Grant execute permission for gradlew
+        run: chmod +x gradlew
+        
+      - name: Create local.properties
+        run: |
+          echo "sdk.dir=$ANDROID_HOME" > local.properties
+          
+      - name: Build QA Debug APK
+        run: ./gradlew assembleQaDebug --stacktrace
+        
+      - name: Build QA Release APK
+        run: ./gradlew assembleQaRelease --stacktrace
+        
+      - name: Upload QA Debug APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: qa-debug-apk
+          path: app/build/outputs/apk/qa/debug/*.apk
+          retention-days: 30
+          
+      - name: Upload QA Release APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: qa-release-apk
+          path: app/build/outputs/apk/qa/release/*.apk
+          retention-days: 30
+          
+      - name: Get APK Info
+        run: |
+          echo "### QA Build Information" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**Build Type:** QA" >> $GITHUB_STEP_SUMMARY
+          echo "**Branch:** ${{ github.ref_name }}" >> $GITHUB_STEP_SUMMARY
+          echo "**Commit:** ${{ github.sha }}" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          
+          if [ -f app/build/outputs/apk/qa/debug/*.apk ]; then
+            DEBUG_SIZE=$(du -h app/build/outputs/apk/qa/debug/*.apk | cut -f1)
+            echo "**Debug APK Size:** $DEBUG_SIZE" >> $GITHUB_STEP_SUMMARY
+          fi
+          
+          if [ -f app/build/outputs/apk/qa/release/*.apk ]; then
+            RELEASE_SIZE=$(du -h app/build/outputs/apk/qa/release/*.apk | cut -f1)
+            echo "**Release APK Size:** $RELEASE_SIZE" >> $GITHUB_STEP_SUMMARY
+          fi
