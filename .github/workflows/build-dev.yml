@@ -9,6 +9,10 @@ on:
       - develop
   workflow_dispatch:
 
+permissions:
+  contents: read
+  actions: read
+
 jobs:
   build-dev:
     name: Build Dev APK

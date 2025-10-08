@@ -11,6 +11,10 @@ on:
         required: true
         default: '1.0.0'
 
+permissions:
+  contents: write
+  actions: read
+
 jobs:
   release:
     name: Create Release Build

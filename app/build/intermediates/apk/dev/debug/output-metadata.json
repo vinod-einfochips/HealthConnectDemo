@@ -1,0 +1,20 @@
+{
+  "version": 3,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "com.example.healthconnectdemo.dev",
+  "variantName": "devDebug",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "attributes": [],
+      "versionCode": 1,
+      "versionName": "1.0-dev",
+      "outputFile": "HealthConnect-dev-debug-v1.0-dev-1-20251008-1705.apk"
+    }
+  ],
+  "elementType": "File"
+}
