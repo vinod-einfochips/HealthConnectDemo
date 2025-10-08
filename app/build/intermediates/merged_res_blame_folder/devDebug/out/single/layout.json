@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "com.example.healthconnectdemo.app-mergeDevDebugResources-40:/layout/activity_main.xml",
+        "source": "com.example.healthconnectdemo.app-main-45:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.healthconnectdemo.app-mergeDevDebugResources-40:/layout/activity_temperature_history.xml",
+        "source": "com.example.healthconnectdemo.app-main-45:/layout/activity_temperature_history.xml"
+    },
+    {
+        "merged": "com.example.healthconnectdemo.app-mergeDevDebugResources-40:/layout/item_temperature_reading.xml",
+        "source": "com.example.healthconnectdemo.app-main-45:/layout/item_temperature_reading.xml"
+    }
+]

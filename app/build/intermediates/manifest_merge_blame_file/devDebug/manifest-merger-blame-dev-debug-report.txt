@@ -1,0 +1,230 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.healthconnectdemo.dev"
+4    android:versionCode="1"
+5    android:versionName="1.0-dev" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="35" />
+10
+11    <!-- Health Connect permissions for body temperature -->
+12    <uses-permission android:name="android.permission.health.READ_BODY_TEMPERATURE" />
+12-->/Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml:6:5-87
+12-->/Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml:6:22-84
+13    <uses-permission android:name="android.permission.health.WRITE_BODY_TEMPERATURE" />
+13-->/Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml:7:5-88
+13-->/Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml:7:22-85
+14
+15    <queries>
+15-->/Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml:9:5-11:15
+16        <package android:name="com.google.android.apps.healthdata" />
+16-->/Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml:10:9-70
+16-->/Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml:10:18-67
+17    </queries>
+18
+19    <permission
+19-->[androidx.core:core:1.13.1] /Users/vinod.tak/.gradle/caches/8.12/transforms/0226ff4ac1411fc1045c92bd52dc8d81/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+20        android:name="com.example.healthconnectdemo.dev.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+20-->[androidx.core:core:1.13.1] /Users/vinod.tak/.gradle/caches/8.12/transforms/0226ff4ac1411fc1045c92bd52dc8d81/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+21        android:protectionLevel="signature" />
+21-->[androidx.core:core:1.13.1] /Users/vinod.tak/.gradle/caches/8.12/transforms/0226ff4ac1411fc1045c92bd52dc8d81/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+22
+23    <uses-permission android:name="com.example.healthconnectdemo.dev.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+23-->[androidx.core:core:1.13.1] /Users/vinod.tak/.gradle/caches/8.12/transforms/0226ff4ac1411fc1045c92bd52dc8d81/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+23-->[androidx.core:core:1.13.1] /Users/vinod.tak/.gradle/caches/8.12/transforms/0226ff4ac1411fc1045c92bd52dc8d81/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+24
+25    <application
+25-->/Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml:13:5-70:19
+26        android:name="com.example.healthconnectdemo.HealthConnectApp"
+26-->/Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml:14:9-41
+27        android:allowBackup="true"
+27-->/Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml:15:9-35
+28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+28-->[androidx.core:core:1.13.1] /Users/vinod.tak/.gradle/caches/8.12/transforms/0226ff4ac1411fc1045c92bd52dc8d81/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+29        android:dataExtractionRules="@xml/data_extraction_rules"
+29-->/Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml:16:9-65
+30        android:debuggable="true"
+31        android:extractNativeLibs="false"
+32        android:fullBackupContent="@xml/backup_rules"
+32-->/Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml:17:9-54
+33        android:icon="@mipmap/ic_launcher"
+33-->/Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml:18:9-43
+34        android:label="@string/app_name"
+34-->/Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml:19:9-41
+35        android:roundIcon="@mipmap/ic_launcher_round"
+35-->/Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml:20:9-54
+36        android:supportsRtl="true"
+36-->/Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml:21:9-35
+37        android:theme="@style/Theme.HealthConnectDemo" >
+37-->/Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml:22:9-55
+38
+39        <!-- Health Connect metadata -->
+40        <meta-data
+40-->/Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml:26:9-28:36
+41            android:name="androidx.health.platform.client"
+41-->/Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml:27:13-59
+42            android:value="true" />
+42-->/Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml:28:13-33
+43
+44        <activity
+44-->/Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml:29:9-49:20
+45            android:name="com.example.healthconnectdemo.MainActivity"
+45-->/Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml:30:13-41
+46            android:exported="true"
+46-->/Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml:31:13-36
+47            android:label="@string/app_name"
+47-->/Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml:32:13-45
+48            android:theme="@style/Theme.HealthConnectDemo" >
+48-->/Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml:33:13-59
+49            <intent-filter>
+49-->/Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml:34:13-37:29
+50                <action android:name="android.intent.action.MAIN" />
+50-->/Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml:35:17-69
+50-->/Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml:35:25-66
+51
+52                <category android:name="android.intent.category.LAUNCHER" />
+52-->/Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml:36:17-77
+52-->/Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml:36:27-74
+53            </intent-filter>
+54
+55            <!-- Health Connect integration intent filter -->
+56            <intent-filter>
+56-->/Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml:40:13-42:29
+57                <action android:name="androidx.health.ACTION_SHOW_PERMISSIONS_RATIONALE" />
+57-->/Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml:41:17-92
+57-->/Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml:41:25-89
+58            </intent-filter>
+59
+60            <!-- Permission handling for Android 14 and later -->
+61            <intent-filter>
+61-->/Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml:45:13-48:29
+62                <action android:name="android.intent.action.VIEW_PERMISSION_USAGE" />
+62-->/Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml:46:17-85
+62-->/Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml:46:25-83
+63
+64                <category android:name="android.intent.category.HEALTH_PERMISSIONS" />
+64-->/Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml:47:17-86
+64-->/Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml:47:27-84
+65            </intent-filter>
+66        </activity> <!-- Activity for handling Health Connect permission requests -->
+67        <activity-alias
+67-->/Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml:60:9-69:26
+68            android:name="com.example.healthconnectdemo.ViewPermissionUsageActivity"
+68-->/Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml:61:13-55
+69            android:exported="true"
+69-->/Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml:62:13-36
+70            android:permission="android.permission.START_VIEW_PERMISSION_USAGE"
+70-->/Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml:64:13-80
+71            android:targetActivity="com.example.healthconnectdemo.MainActivity" >
+71-->/Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml:63:13-51
+72            <intent-filter>
+72-->/Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml:45:13-48:29
+73                <action android:name="android.intent.action.VIEW_PERMISSION_USAGE" />
+73-->/Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml:46:17-85
+73-->/Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml:46:25-83
+74
+75                <category android:name="android.intent.category.HEALTH_PERMISSIONS" />
+75-->/Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml:47:17-86
+75-->/Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml:47:27-84
+76            </intent-filter>
+77        </activity-alias>
+78
+79        <!-- Temperature History Activity -->
+80        <activity
+80-->/Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml:52:9-57:74
+81            android:name="com.example.healthconnectdemo.TemperatureHistoryActivity"
+81-->/Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml:53:13-55
+82            android:exported="false"
+82-->/Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml:54:13-37
+83            android:label="Temperature History"
+83-->/Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml:55:13-48
+84            android:parentActivityName="com.example.healthconnectdemo.MainActivity"
+84-->/Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml:56:13-55
+85            android:theme="@style/Theme.HealthConnectDemo.NoActionBar" />
+85-->/Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml:57:13-71
+86
+87        <service
+87-->[androidx.health.connect:connect-client:1.1.0-alpha06] /Users/vinod.tak/.gradle/caches/8.12/transforms/3ad64e2f93ff86de2ae2b403fd80bb97/transformed/connect-client-1.1.0-alpha06/AndroidManifest.xml:24:9-32:19
+88            android:name="androidx.health.platform.client.impl.sdkservice.HealthDataSdkService"
+88-->[androidx.health.connect:connect-client:1.1.0-alpha06] /Users/vinod.tak/.gradle/caches/8.12/transforms/3ad64e2f93ff86de2ae2b403fd80bb97/transformed/connect-client-1.1.0-alpha06/AndroidManifest.xml:25:13-96
+89            android:enabled="true"
+89-->[androidx.health.connect:connect-client:1.1.0-alpha06] /Users/vinod.tak/.gradle/caches/8.12/transforms/3ad64e2f93ff86de2ae2b403fd80bb97/transformed/connect-client-1.1.0-alpha06/AndroidManifest.xml:26:13-35
+90            android:exported="true" >
+90-->[androidx.health.connect:connect-client:1.1.0-alpha06] /Users/vinod.tak/.gradle/caches/8.12/transforms/3ad64e2f93ff86de2ae2b403fd80bb97/transformed/connect-client-1.1.0-alpha06/AndroidManifest.xml:27:13-36
+91            <intent-filter>
+91-->[androidx.health.connect:connect-client:1.1.0-alpha06] /Users/vinod.tak/.gradle/caches/8.12/transforms/3ad64e2f93ff86de2ae2b403fd80bb97/transformed/connect-client-1.1.0-alpha06/AndroidManifest.xml:29:13-31:29
+92                <action android:name="androidx.health.platform.client.ACTION_BIND_SDK_SERVICE" />
+92-->[androidx.health.connect:connect-client:1.1.0-alpha06] /Users/vinod.tak/.gradle/caches/8.12/transforms/3ad64e2f93ff86de2ae2b403fd80bb97/transformed/connect-client-1.1.0-alpha06/AndroidManifest.xml:30:17-98
+92-->[androidx.health.connect:connect-client:1.1.0-alpha06] /Users/vinod.tak/.gradle/caches/8.12/transforms/3ad64e2f93ff86de2ae2b403fd80bb97/transformed/connect-client-1.1.0-alpha06/AndroidManifest.xml:30:25-95
+93            </intent-filter>
+94        </service>
+95
+96        <provider
+96-->[androidx.emoji2:emoji2:1.3.0] /Users/vinod.tak/.gradle/caches/8.12/transforms/a66c0a3d103324217cbb8779d49ccbb8/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+97            android:name="androidx.startup.InitializationProvider"
+97-->[androidx.emoji2:emoji2:1.3.0] /Users/vinod.tak/.gradle/caches/8.12/transforms/a66c0a3d103324217cbb8779d49ccbb8/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+98            android:authorities="com.example.healthconnectdemo.dev.androidx-startup"
+98-->[androidx.emoji2:emoji2:1.3.0] /Users/vinod.tak/.gradle/caches/8.12/transforms/a66c0a3d103324217cbb8779d49ccbb8/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+99            android:exported="false" >
+99-->[androidx.emoji2:emoji2:1.3.0] /Users/vinod.tak/.gradle/caches/8.12/transforms/a66c0a3d103324217cbb8779d49ccbb8/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+100            <meta-data
+100-->[androidx.emoji2:emoji2:1.3.0] /Users/vinod.tak/.gradle/caches/8.12/transforms/a66c0a3d103324217cbb8779d49ccbb8/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+101                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+101-->[androidx.emoji2:emoji2:1.3.0] /Users/vinod.tak/.gradle/caches/8.12/transforms/a66c0a3d103324217cbb8779d49ccbb8/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+102                android:value="androidx.startup" />
+102-->[androidx.emoji2:emoji2:1.3.0] /Users/vinod.tak/.gradle/caches/8.12/transforms/a66c0a3d103324217cbb8779d49ccbb8/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+103            <meta-data
+103-->[androidx.lifecycle:lifecycle-process:2.8.4] /Users/vinod.tak/.gradle/caches/8.12/transforms/d01baea34c13494d74f14deb345f5c93/transformed/lifecycle-process-2.8.4/AndroidManifest.xml:29:13-31:52
+104                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+104-->[androidx.lifecycle:lifecycle-process:2.8.4] /Users/vinod.tak/.gradle/caches/8.12/transforms/d01baea34c13494d74f14deb345f5c93/transformed/lifecycle-process-2.8.4/AndroidManifest.xml:30:17-78
+105                android:value="androidx.startup" />
+105-->[androidx.lifecycle:lifecycle-process:2.8.4] /Users/vinod.tak/.gradle/caches/8.12/transforms/d01baea34c13494d74f14deb345f5c93/transformed/lifecycle-process-2.8.4/AndroidManifest.xml:31:17-49
+106            <meta-data
+106-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/vinod.tak/.gradle/caches/8.12/transforms/986d2f7d7b844128cade61e4771c1297/transformed/profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+107                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+107-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/vinod.tak/.gradle/caches/8.12/transforms/986d2f7d7b844128cade61e4771c1297/transformed/profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+108                android:value="androidx.startup" />
+108-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/vinod.tak/.gradle/caches/8.12/transforms/986d2f7d7b844128cade61e4771c1297/transformed/profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+109        </provider>
+110
+111        <receiver
+111-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/vinod.tak/.gradle/caches/8.12/transforms/986d2f7d7b844128cade61e4771c1297/transformed/profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+112            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+112-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/vinod.tak/.gradle/caches/8.12/transforms/986d2f7d7b844128cade61e4771c1297/transformed/profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+113            android:directBootAware="false"
+113-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/vinod.tak/.gradle/caches/8.12/transforms/986d2f7d7b844128cade61e4771c1297/transformed/profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+114            android:enabled="true"
+114-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/vinod.tak/.gradle/caches/8.12/transforms/986d2f7d7b844128cade61e4771c1297/transformed/profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+115            android:exported="true"
+115-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/vinod.tak/.gradle/caches/8.12/transforms/986d2f7d7b844128cade61e4771c1297/transformed/profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+116            android:permission="android.permission.DUMP" >
+116-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/vinod.tak/.gradle/caches/8.12/transforms/986d2f7d7b844128cade61e4771c1297/transformed/profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+117            <intent-filter>
+117-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/vinod.tak/.gradle/caches/8.12/transforms/986d2f7d7b844128cade61e4771c1297/transformed/profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+118                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+118-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/vinod.tak/.gradle/caches/8.12/transforms/986d2f7d7b844128cade61e4771c1297/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+118-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/vinod.tak/.gradle/caches/8.12/transforms/986d2f7d7b844128cade61e4771c1297/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+119            </intent-filter>
+120            <intent-filter>
+120-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/vinod.tak/.gradle/caches/8.12/transforms/986d2f7d7b844128cade61e4771c1297/transformed/profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+121                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+121-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/vinod.tak/.gradle/caches/8.12/transforms/986d2f7d7b844128cade61e4771c1297/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+121-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/vinod.tak/.gradle/caches/8.12/transforms/986d2f7d7b844128cade61e4771c1297/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+122            </intent-filter>
+123            <intent-filter>
+123-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/vinod.tak/.gradle/caches/8.12/transforms/986d2f7d7b844128cade61e4771c1297/transformed/profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+124                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+124-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/vinod.tak/.gradle/caches/8.12/transforms/986d2f7d7b844128cade61e4771c1297/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+124-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/vinod.tak/.gradle/caches/8.12/transforms/986d2f7d7b844128cade61e4771c1297/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+125            </intent-filter>
+126            <intent-filter>
+126-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/vinod.tak/.gradle/caches/8.12/transforms/986d2f7d7b844128cade61e4771c1297/transformed/profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+127                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+127-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/vinod.tak/.gradle/caches/8.12/transforms/986d2f7d7b844128cade61e4771c1297/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+127-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/vinod.tak/.gradle/caches/8.12/transforms/986d2f7d7b844128cade61e4771c1297/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+128            </intent-filter>
+129        </receiver>
+130    </application>
+131
+132</manifest>

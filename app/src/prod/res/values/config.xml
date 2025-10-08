@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Production Environment Configuration -->
+    <string name="environment_name">Production</string>
+    <string name="api_base_url">https://api.healthconnect.com</string>
+    
+    <!-- Feature Flags -->
+    <bool name="enable_debug_menu">false</bool>
+    <bool name="enable_mock_data">false</bool>
+    <bool name="enable_strict_mode">false</bool>
+    
+    <!-- Timeouts (in seconds) -->
+    <integer name="network_timeout">30</integer>
+    <integer name="connection_timeout">15</integer>
+    
+    <!-- Colors for environment identification -->
+    <color name="environment_indicator">#4CAF50</color>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- QA Environment Configuration -->
+    <string name="environment_name">Quality Assurance</string>
+    <string name="api_base_url">https://qa-api.healthconnect.com</string>
+    
+    <!-- Feature Flags -->
+    <bool name="enable_debug_menu">true</bool>
+    <bool name="enable_mock_data">false</bool>
+    <bool name="enable_strict_mode">false</bool>
+    
+    <!-- Timeouts (in seconds) -->
+    <integer name="network_timeout">45</integer>
+    <integer name="connection_timeout">20</integer>
+    
+    <!-- Colors for environment identification -->
+    <color name="environment_indicator">#2196F3</color>
+</resources>

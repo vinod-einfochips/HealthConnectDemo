@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "com.example.healthconnectdemo.app-merged_res-41:/layout_activity_main.xml.flat",
+        "source": "com.example.healthconnectdemo.app-main-45:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.healthconnectdemo.app-merged_res-41:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.healthconnectdemo.app-main-45:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.healthconnectdemo.app-merged_res-41:/xml_backup_rules.xml.flat",
+        "source": "com.example.healthconnectdemo.app-main-45:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.healthconnectdemo.app-merged_res-41:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.healthconnectdemo.app-main-45:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.healthconnectdemo.app-merged_res-41:/layout_item_temperature_reading.xml.flat",
+        "source": "com.example.healthconnectdemo.app-main-45:/layout/item_temperature_reading.xml"
+    },
+    {
+        "merged": "com.example.healthconnectdemo.app-merged_res-41:/layout_activity_temperature_history.xml.flat",
+        "source": "com.example.healthconnectdemo.app-main-45:/layout/activity_temperature_history.xml"
+    },
+    {
+        "merged": "com.example.healthconnectdemo.app-merged_res-41:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.healthconnectdemo.app-main-45:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.healthconnectdemo.app-merged_res-41:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.healthconnectdemo.app-main-45:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    }
+]

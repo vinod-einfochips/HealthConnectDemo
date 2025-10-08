@@ -1,0 +1,418 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml:2:1-71:12
+INJECTED from /Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml:2:1-71:12
+INJECTED from /Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml:2:1-71:12
+INJECTED from /Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml:2:1-71:12
+MERGED from [androidx.databinding:viewbinding:8.2.2] /Users/vinod.tak/.gradle/caches/8.12/transforms/7200cce51b4356d0a59b4dfe1e51c61b/transformed/viewbinding-8.2.2/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.material:material:1.12.0] /Users/vinod.tak/.gradle/caches/8.12/transforms/4d9cc848182da8befd1bd5fae1e4356b/transformed/material-1.12.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/vinod.tak/.gradle/caches/8.12/transforms/612b8fb32110ca2575521a5649f24a92/transformed/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] /Users/vinod.tak/.gradle/caches/8.12/transforms/3f8cffbf655e4b01d8bb926e1b130121/transformed/appcompat-resources-1.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.appcompat:appcompat:1.7.0] /Users/vinod.tak/.gradle/caches/8.12/transforms/e978ddc27497ad57d5100e41f3df9db8/transformed/appcompat-1.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.dagger:hilt-android:2.50] /Users/vinod.tak/.gradle/caches/8.12/transforms/2901dfd66c6308201eadb88c6ecae6ae/transformed/hilt-android-2.50/AndroidManifest.xml:16:1-19:12
+MERGED from [androidx.recyclerview:recyclerview:1.3.2] /Users/vinod.tak/.gradle/caches/8.12/transforms/78794f79bd0c394b732d6bb84c5c0a8d/transformed/recyclerview-1.3.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta02] /Users/vinod.tak/.gradle/caches/8.12/transforms/04b965e66ad8079582da660f4d1200a3/transformed/viewpager2-1.1.0-beta02/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.fragment:fragment:1.8.2] /Users/vinod.tak/.gradle/caches/8.12/transforms/bd0ad2d0fd72993c3d6e6605a04a5e37/transformed/fragment-1.8.2/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.fragment:fragment-ktx:1.8.2] /Users/vinod.tak/.gradle/caches/8.12/transforms/d07749f4ab630a37586e2f6cbca5d71a/transformed/fragment-ktx-1.8.2/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.health.connect:connect-client:1.1.0-alpha06] /Users/vinod.tak/.gradle/caches/8.12/transforms/3ad64e2f93ff86de2ae2b403fd80bb97/transformed/connect-client-1.1.0-alpha06/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.activity:activity:1.9.1] /Users/vinod.tak/.gradle/caches/8.12/transforms/b43d971969db72c93acc548f41450493/transformed/activity-1.9.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity-ktx:1.9.1] /Users/vinod.tak/.gradle/caches/8.12/transforms/60d868c89283149bc0f1f31f13d3bba4/transformed/activity-ktx-1.9.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.2.0] /Users/vinod.tak/.gradle/caches/8.12/transforms/553755c900d5415b409f994e6ea8935a/transformed/coordinatorlayout-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /Users/vinod.tak/.gradle/caches/8.12/transforms/0a2c5a4cb9366d6f8bd076f45dbeab3f/transformed/emoji2-views-helper-1.3.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/vinod.tak/.gradle/caches/8.12/transforms/a66c0a3d103324217cbb8779d49ccbb8/transformed/emoji2-1.3.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/vinod.tak/.gradle/caches/8.12/transforms/b138079a4d8a0102d5c41828a40e6711/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.5.0] /Users/vinod.tak/.gradle/caches/8.12/transforms/f728ff00e2f4223e4f5ebc0f21238948/transformed/transition-1.5.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/vinod.tak/.gradle/caches/8.12/transforms/2a44aecbbf5b0f5808a9d4b6ae8f850c/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/vinod.tak/.gradle/caches/8.12/transforms/c18bc0ec49a1f6d09dcb0b12a3e8a18e/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/vinod.tak/.gradle/caches/8.12/transforms/686fbffbdbf5f6e2e8749a273adb8a26/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/vinod.tak/.gradle/caches/8.12/transforms/58904129a02d495a32be95d928d03829/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] /Users/vinod.tak/.gradle/caches/8.12/transforms/344e784355a7149a497ed19de7ed09c0/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/vinod.tak/.gradle/caches/8.12/transforms/fde833b9437eee4785dc79609b887831/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/vinod.tak/.gradle/caches/8.12/transforms/2bae4b0e7bf83cf9c1a7718cfe6fabb4/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.13.1] /Users/vinod.tak/.gradle/caches/8.12/transforms/0226ff4ac1411fc1045c92bd52dc8d81/transformed/core-1.13.1/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/vinod.tak/.gradle/caches/8.12/transforms/88c0b1fd3b26808aabd5d9fad66849e4/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/vinod.tak/.gradle/caches/8.12/transforms/a513750c78f63deb3909e382b1aeac23/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/vinod.tak/.gradle/caches/8.12/transforms/606a628276b7710cf6218006bceb40d2/transformed/savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.4] /Users/vinod.tak/.gradle/caches/8.12/transforms/074fd25da5590417afbf19100eb58e40/transformed/lifecycle-livedata-core-2.8.4/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.4] /Users/vinod.tak/.gradle/caches/8.12/transforms/b5218802e7faadc008a2691cbbd3231a/transformed/lifecycle-runtime-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.4] /Users/vinod.tak/.gradle/caches/8.12/transforms/7c46920340274fce900eb9ddabc5dd9f/transformed/lifecycle-viewmodel-2.8.4/AndroidManifest.xml:2:1-5:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.4] /Users/vinod.tak/.gradle/caches/8.12/transforms/5738e9c6b48a10b9ff1d16f919ddeeac/transformed/lifecycle-viewmodel-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.4] /Users/vinod.tak/.gradle/caches/8.12/transforms/d01baea34c13494d74f14deb345f5c93/transformed/lifecycle-process-2.8.4/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.4] /Users/vinod.tak/.gradle/caches/8.12/transforms/9bad786246049b98f418b3906faf92a3/transformed/lifecycle-livedata-core-ktx-2.8.4/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.4] /Users/vinod.tak/.gradle/caches/8.12/transforms/633c2c7d70ec11b9bb4b5f507bc3eff4/transformed/lifecycle-livedata-2.8.4/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.4] /Users/vinod.tak/.gradle/caches/8.12/transforms/a398968b759e5351ef861176f25084fb/transformed/lifecycle-runtime-ktx-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.4] /Users/vinod.tak/.gradle/caches/8.12/transforms/8092081cc4d1fc90ab353b5122584a4c/transformed/lifecycle-viewmodel-ktx-2.8.4/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.8.4] /Users/vinod.tak/.gradle/caches/8.12/transforms/1f99bbf2a8250e0cea76e310b9c8cb16/transformed/lifecycle-livedata-ktx-2.8.4/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.4] /Users/vinod.tak/.gradle/caches/8.12/transforms/7092a94f4a947d089e38bfe712a47111/transformed/lifecycle-viewmodel-savedstate-2.8.4/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.13.1] /Users/vinod.tak/.gradle/caches/8.12/transforms/20e08e1ad223717e9d4d0d37e2dfd38b/transformed/core-ktx-1.13.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.core:core-splashscreen:1.0.1] /Users/vinod.tak/.gradle/caches/8.12/transforms/53186ece22feef2ddf32992b6902ae86/transformed/core-splashscreen-1.0.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/vinod.tak/.gradle/caches/8.12/transforms/b936ebe3c5998e4894f578bc8fadc50c/transformed/annotation-experimental-1.4.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/vinod.tak/.gradle/caches/8.12/transforms/7f2e54d47c83350f10053cf68bf4ecf2/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/vinod.tak/.gradle/caches/8.12/transforms/986d2f7d7b844128cade61e4771c1297/transformed/profileinstaller-1.3.1/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/vinod.tak/.gradle/caches/8.12/transforms/99830ee9f4ba4d284f94902b3871325d/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/vinod.tak/.gradle/caches/8.12/transforms/01b54107baa907dd35ec4ada5dc01007/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/vinod.tak/.gradle/caches/8.12/transforms/1102150f4019729174d3141603047690/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/vinod.tak/.gradle/caches/8.12/transforms/a4a4fb760e1b05822b6733c691baa613/transformed/startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/vinod.tak/.gradle/caches/8.12/transforms/2df4d01364d9423188b0125112fcb31f/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/vinod.tak/.gradle/caches/8.12/transforms/f47033b069c57c5fd6d9101a6756a0ba/transformed/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/vinod.tak/.gradle/caches/8.12/transforms/dd5f04f0ad837b880af1e9aec4c744b0/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/vinod.tak/.gradle/caches/8.12/transforms/47e1288f07323e45923e615c70c6a251/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/vinod.tak/.gradle/caches/8.12/transforms/61874dcefdf75ca0533620f37cbcfe0d/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.dagger:dagger-lint-aar:2.50] /Users/vinod.tak/.gradle/caches/8.12/transforms/3966d7b4c4ca4f712348dea3e7d63f94/transformed/dagger-lint-aar-2.50/AndroidManifest.xml:16:1-19:12
+	package
+		INJECTED from /Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.health.READ_BODY_TEMPERATURE
+ADDED from /Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml:6:5-87
+	android:name
+		ADDED from /Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml:6:22-84
+uses-permission#android.permission.health.WRITE_BODY_TEMPERATURE
+ADDED from /Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml:7:5-88
+	android:name
+		ADDED from /Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml:7:22-85
+queries
+ADDED from /Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml:9:5-11:15
+package#com.google.android.apps.healthdata
+ADDED from /Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml:10:9-70
+	android:name
+		ADDED from /Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml:10:18-67
+application
+ADDED from /Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml:13:5-70:19
+INJECTED from /Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml:13:5-70:19
+MERGED from [com.google.android.material:material:1.12.0] /Users/vinod.tak/.gradle/caches/8.12/transforms/4d9cc848182da8befd1bd5fae1e4356b/transformed/material-1.12.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.12.0] /Users/vinod.tak/.gradle/caches/8.12/transforms/4d9cc848182da8befd1bd5fae1e4356b/transformed/material-1.12.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/vinod.tak/.gradle/caches/8.12/transforms/612b8fb32110ca2575521a5649f24a92/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/vinod.tak/.gradle/caches/8.12/transforms/612b8fb32110ca2575521a5649f24a92/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.health.connect:connect-client:1.1.0-alpha06] /Users/vinod.tak/.gradle/caches/8.12/transforms/3ad64e2f93ff86de2ae2b403fd80bb97/transformed/connect-client-1.1.0-alpha06/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.health.connect:connect-client:1.1.0-alpha06] /Users/vinod.tak/.gradle/caches/8.12/transforms/3ad64e2f93ff86de2ae2b403fd80bb97/transformed/connect-client-1.1.0-alpha06/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/vinod.tak/.gradle/caches/8.12/transforms/a66c0a3d103324217cbb8779d49ccbb8/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/vinod.tak/.gradle/caches/8.12/transforms/a66c0a3d103324217cbb8779d49ccbb8/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.13.1] /Users/vinod.tak/.gradle/caches/8.12/transforms/0226ff4ac1411fc1045c92bd52dc8d81/transformed/core-1.13.1/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.13.1] /Users/vinod.tak/.gradle/caches/8.12/transforms/0226ff4ac1411fc1045c92bd52dc8d81/transformed/core-1.13.1/AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.4] /Users/vinod.tak/.gradle/caches/8.12/transforms/d01baea34c13494d74f14deb345f5c93/transformed/lifecycle-process-2.8.4/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.4] /Users/vinod.tak/.gradle/caches/8.12/transforms/d01baea34c13494d74f14deb345f5c93/transformed/lifecycle-process-2.8.4/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/vinod.tak/.gradle/caches/8.12/transforms/986d2f7d7b844128cade61e4771c1297/transformed/profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/vinod.tak/.gradle/caches/8.12/transforms/986d2f7d7b844128cade61e4771c1297/transformed/profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/vinod.tak/.gradle/caches/8.12/transforms/1102150f4019729174d3141603047690/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/vinod.tak/.gradle/caches/8.12/transforms/1102150f4019729174d3141603047690/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/vinod.tak/.gradle/caches/8.12/transforms/a4a4fb760e1b05822b6733c691baa613/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/vinod.tak/.gradle/caches/8.12/transforms/a4a4fb760e1b05822b6733c691baa613/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+	android:extractNativeLibs
+		INJECTED from /Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.13.1] /Users/vinod.tak/.gradle/caches/8.12/transforms/0226ff4ac1411fc1045c92bd52dc8d81/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from /Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml:21:9-35
+	android:label
+		ADDED from /Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml:19:9-41
+	android:fullBackupContent
+		ADDED from /Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml:17:9-54
+	android:roundIcon
+		ADDED from /Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml:20:9-54
+	tools:targetApi
+		ADDED from /Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml:23:9-29
+	android:icon
+		ADDED from /Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml:18:9-43
+	android:allowBackup
+		ADDED from /Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml:15:9-35
+	android:theme
+		ADDED from /Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml:22:9-55
+	android:dataExtractionRules
+		ADDED from /Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml:16:9-65
+	android:name
+		ADDED from /Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml:14:9-41
+meta-data#androidx.health.platform.client
+ADDED from /Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml:26:9-28:36
+	android:value
+		ADDED from /Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml:28:13-33
+	android:name
+		ADDED from /Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml:27:13-59
+activity#com.example.healthconnectdemo.MainActivity
+ADDED from /Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml:29:9-49:20
+	android:label
+		ADDED from /Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml:32:13-45
+	android:exported
+		ADDED from /Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml:31:13-36
+	android:theme
+		ADDED from /Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml:33:13-59
+	android:name
+		ADDED from /Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml:30:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml:34:13-37:29
+action#android.intent.action.MAIN
+ADDED from /Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml:35:17-69
+	android:name
+		ADDED from /Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml:35:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml:36:17-77
+	android:name
+		ADDED from /Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml:36:27-74
+intent-filter#action:name:androidx.health.ACTION_SHOW_PERMISSIONS_RATIONALE
+ADDED from /Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml:40:13-42:29
+action#androidx.health.ACTION_SHOW_PERMISSIONS_RATIONALE
+ADDED from /Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml:41:17-92
+	android:name
+		ADDED from /Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml:41:25-89
+intent-filter#action:name:android.intent.action.VIEW_PERMISSION_USAGE+category:name:android.intent.category.HEALTH_PERMISSIONS
+ADDED from /Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml:45:13-48:29
+action#android.intent.action.VIEW_PERMISSION_USAGE
+ADDED from /Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml:46:17-85
+	android:name
+		ADDED from /Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml:46:25-83
+category#android.intent.category.HEALTH_PERMISSIONS
+ADDED from /Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml:47:17-86
+	android:name
+		ADDED from /Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml:47:27-84
+activity#com.example.healthconnectdemo.TemperatureHistoryActivity
+ADDED from /Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml:52:9-57:74
+	android:parentActivityName
+		ADDED from /Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml:56:13-55
+	android:label
+		ADDED from /Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml:55:13-48
+	android:exported
+		ADDED from /Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml:54:13-37
+	android:theme
+		ADDED from /Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml:57:13-71
+	android:name
+		ADDED from /Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml:53:13-55
+activity-alias#com.example.healthconnectdemo.ViewPermissionUsageActivity
+ADDED from /Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml:60:9-69:26
+	android:exported
+		ADDED from /Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml:62:13-36
+	android:targetActivity
+		ADDED from /Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml:63:13-51
+	android:permission
+		ADDED from /Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml:64:13-80
+	android:name
+		ADDED from /Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml:61:13-55
+uses-sdk
+INJECTED from /Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml
+INJECTED from /Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:8.2.2] /Users/vinod.tak/.gradle/caches/8.12/transforms/7200cce51b4356d0a59b4dfe1e51c61b/transformed/viewbinding-8.2.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:viewbinding:8.2.2] /Users/vinod.tak/.gradle/caches/8.12/transforms/7200cce51b4356d0a59b4dfe1e51c61b/transformed/viewbinding-8.2.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.material:material:1.12.0] /Users/vinod.tak/.gradle/caches/8.12/transforms/4d9cc848182da8befd1bd5fae1e4356b/transformed/material-1.12.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.12.0] /Users/vinod.tak/.gradle/caches/8.12/transforms/4d9cc848182da8befd1bd5fae1e4356b/transformed/material-1.12.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/vinod.tak/.gradle/caches/8.12/transforms/612b8fb32110ca2575521a5649f24a92/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/vinod.tak/.gradle/caches/8.12/transforms/612b8fb32110ca2575521a5649f24a92/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] /Users/vinod.tak/.gradle/caches/8.12/transforms/3f8cffbf655e4b01d8bb926e1b130121/transformed/appcompat-resources-1.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] /Users/vinod.tak/.gradle/caches/8.12/transforms/3f8cffbf655e4b01d8bb926e1b130121/transformed/appcompat-resources-1.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.0] /Users/vinod.tak/.gradle/caches/8.12/transforms/e978ddc27497ad57d5100e41f3df9db8/transformed/appcompat-1.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.0] /Users/vinod.tak/.gradle/caches/8.12/transforms/e978ddc27497ad57d5100e41f3df9db8/transformed/appcompat-1.7.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.dagger:hilt-android:2.50] /Users/vinod.tak/.gradle/caches/8.12/transforms/2901dfd66c6308201eadb88c6ecae6ae/transformed/hilt-android-2.50/AndroidManifest.xml:18:3-42
+MERGED from [com.google.dagger:hilt-android:2.50] /Users/vinod.tak/.gradle/caches/8.12/transforms/2901dfd66c6308201eadb88c6ecae6ae/transformed/hilt-android-2.50/AndroidManifest.xml:18:3-42
+MERGED from [androidx.recyclerview:recyclerview:1.3.2] /Users/vinod.tak/.gradle/caches/8.12/transforms/78794f79bd0c394b732d6bb84c5c0a8d/transformed/recyclerview-1.3.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.3.2] /Users/vinod.tak/.gradle/caches/8.12/transforms/78794f79bd0c394b732d6bb84c5c0a8d/transformed/recyclerview-1.3.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta02] /Users/vinod.tak/.gradle/caches/8.12/transforms/04b965e66ad8079582da660f4d1200a3/transformed/viewpager2-1.1.0-beta02/AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta02] /Users/vinod.tak/.gradle/caches/8.12/transforms/04b965e66ad8079582da660f4d1200a3/transformed/viewpager2-1.1.0-beta02/AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment:1.8.2] /Users/vinod.tak/.gradle/caches/8.12/transforms/bd0ad2d0fd72993c3d6e6605a04a5e37/transformed/fragment-1.8.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment:1.8.2] /Users/vinod.tak/.gradle/caches/8.12/transforms/bd0ad2d0fd72993c3d6e6605a04a5e37/transformed/fragment-1.8.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.8.2] /Users/vinod.tak/.gradle/caches/8.12/transforms/d07749f4ab630a37586e2f6cbca5d71a/transformed/fragment-ktx-1.8.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.8.2] /Users/vinod.tak/.gradle/caches/8.12/transforms/d07749f4ab630a37586e2f6cbca5d71a/transformed/fragment-ktx-1.8.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.health.connect:connect-client:1.1.0-alpha06] /Users/vinod.tak/.gradle/caches/8.12/transforms/3ad64e2f93ff86de2ae2b403fd80bb97/transformed/connect-client-1.1.0-alpha06/AndroidManifest.xml:21:5-44
+MERGED from [androidx.health.connect:connect-client:1.1.0-alpha06] /Users/vinod.tak/.gradle/caches/8.12/transforms/3ad64e2f93ff86de2ae2b403fd80bb97/transformed/connect-client-1.1.0-alpha06/AndroidManifest.xml:21:5-44
+MERGED from [androidx.activity:activity:1.9.1] /Users/vinod.tak/.gradle/caches/8.12/transforms/b43d971969db72c93acc548f41450493/transformed/activity-1.9.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.9.1] /Users/vinod.tak/.gradle/caches/8.12/transforms/b43d971969db72c93acc548f41450493/transformed/activity-1.9.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-ktx:1.9.1] /Users/vinod.tak/.gradle/caches/8.12/transforms/60d868c89283149bc0f1f31f13d3bba4/transformed/activity-ktx-1.9.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.9.1] /Users/vinod.tak/.gradle/caches/8.12/transforms/60d868c89283149bc0f1f31f13d3bba4/transformed/activity-ktx-1.9.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.2.0] /Users/vinod.tak/.gradle/caches/8.12/transforms/553755c900d5415b409f994e6ea8935a/transformed/coordinatorlayout-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.2.0] /Users/vinod.tak/.gradle/caches/8.12/transforms/553755c900d5415b409f994e6ea8935a/transformed/coordinatorlayout-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /Users/vinod.tak/.gradle/caches/8.12/transforms/0a2c5a4cb9366d6f8bd076f45dbeab3f/transformed/emoji2-views-helper-1.3.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /Users/vinod.tak/.gradle/caches/8.12/transforms/0a2c5a4cb9366d6f8bd076f45dbeab3f/transformed/emoji2-views-helper-1.3.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/vinod.tak/.gradle/caches/8.12/transforms/a66c0a3d103324217cbb8779d49ccbb8/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/vinod.tak/.gradle/caches/8.12/transforms/a66c0a3d103324217cbb8779d49ccbb8/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/vinod.tak/.gradle/caches/8.12/transforms/b138079a4d8a0102d5c41828a40e6711/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/vinod.tak/.gradle/caches/8.12/transforms/b138079a4d8a0102d5c41828a40e6711/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.5.0] /Users/vinod.tak/.gradle/caches/8.12/transforms/f728ff00e2f4223e4f5ebc0f21238948/transformed/transition-1.5.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.transition:transition:1.5.0] /Users/vinod.tak/.gradle/caches/8.12/transforms/f728ff00e2f4223e4f5ebc0f21238948/transformed/transition-1.5.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/vinod.tak/.gradle/caches/8.12/transforms/2a44aecbbf5b0f5808a9d4b6ae8f850c/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/vinod.tak/.gradle/caches/8.12/transforms/2a44aecbbf5b0f5808a9d4b6ae8f850c/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/vinod.tak/.gradle/caches/8.12/transforms/c18bc0ec49a1f6d09dcb0b12a3e8a18e/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/vinod.tak/.gradle/caches/8.12/transforms/c18bc0ec49a1f6d09dcb0b12a3e8a18e/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/vinod.tak/.gradle/caches/8.12/transforms/686fbffbdbf5f6e2e8749a273adb8a26/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/vinod.tak/.gradle/caches/8.12/transforms/686fbffbdbf5f6e2e8749a273adb8a26/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/vinod.tak/.gradle/caches/8.12/transforms/58904129a02d495a32be95d928d03829/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/vinod.tak/.gradle/caches/8.12/transforms/58904129a02d495a32be95d928d03829/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] /Users/vinod.tak/.gradle/caches/8.12/transforms/344e784355a7149a497ed19de7ed09c0/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/vinod.tak/.gradle/caches/8.12/transforms/344e784355a7149a497ed19de7ed09c0/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/vinod.tak/.gradle/caches/8.12/transforms/fde833b9437eee4785dc79609b887831/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/vinod.tak/.gradle/caches/8.12/transforms/fde833b9437eee4785dc79609b887831/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/vinod.tak/.gradle/caches/8.12/transforms/2bae4b0e7bf83cf9c1a7718cfe6fabb4/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/vinod.tak/.gradle/caches/8.12/transforms/2bae4b0e7bf83cf9c1a7718cfe6fabb4/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.1] /Users/vinod.tak/.gradle/caches/8.12/transforms/0226ff4ac1411fc1045c92bd52dc8d81/transformed/core-1.13.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.1] /Users/vinod.tak/.gradle/caches/8.12/transforms/0226ff4ac1411fc1045c92bd52dc8d81/transformed/core-1.13.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/vinod.tak/.gradle/caches/8.12/transforms/88c0b1fd3b26808aabd5d9fad66849e4/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/vinod.tak/.gradle/caches/8.12/transforms/88c0b1fd3b26808aabd5d9fad66849e4/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/vinod.tak/.gradle/caches/8.12/transforms/a513750c78f63deb3909e382b1aeac23/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/vinod.tak/.gradle/caches/8.12/transforms/a513750c78f63deb3909e382b1aeac23/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/vinod.tak/.gradle/caches/8.12/transforms/606a628276b7710cf6218006bceb40d2/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/vinod.tak/.gradle/caches/8.12/transforms/606a628276b7710cf6218006bceb40d2/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.4] /Users/vinod.tak/.gradle/caches/8.12/transforms/074fd25da5590417afbf19100eb58e40/transformed/lifecycle-livedata-core-2.8.4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.4] /Users/vinod.tak/.gradle/caches/8.12/transforms/074fd25da5590417afbf19100eb58e40/transformed/lifecycle-livedata-core-2.8.4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.4] /Users/vinod.tak/.gradle/caches/8.12/transforms/b5218802e7faadc008a2691cbbd3231a/transformed/lifecycle-runtime-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.4] /Users/vinod.tak/.gradle/caches/8.12/transforms/b5218802e7faadc008a2691cbbd3231a/transformed/lifecycle-runtime-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.4] /Users/vinod.tak/.gradle/caches/8.12/transforms/7c46920340274fce900eb9ddabc5dd9f/transformed/lifecycle-viewmodel-2.8.4/AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.4] /Users/vinod.tak/.gradle/caches/8.12/transforms/7c46920340274fce900eb9ddabc5dd9f/transformed/lifecycle-viewmodel-2.8.4/AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.4] /Users/vinod.tak/.gradle/caches/8.12/transforms/5738e9c6b48a10b9ff1d16f919ddeeac/transformed/lifecycle-viewmodel-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.4] /Users/vinod.tak/.gradle/caches/8.12/transforms/5738e9c6b48a10b9ff1d16f919ddeeac/transformed/lifecycle-viewmodel-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.4] /Users/vinod.tak/.gradle/caches/8.12/transforms/d01baea34c13494d74f14deb345f5c93/transformed/lifecycle-process-2.8.4/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.4] /Users/vinod.tak/.gradle/caches/8.12/transforms/d01baea34c13494d74f14deb345f5c93/transformed/lifecycle-process-2.8.4/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.4] /Users/vinod.tak/.gradle/caches/8.12/transforms/9bad786246049b98f418b3906faf92a3/transformed/lifecycle-livedata-core-ktx-2.8.4/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.4] /Users/vinod.tak/.gradle/caches/8.12/transforms/9bad786246049b98f418b3906faf92a3/transformed/lifecycle-livedata-core-ktx-2.8.4/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.4] /Users/vinod.tak/.gradle/caches/8.12/transforms/633c2c7d70ec11b9bb4b5f507bc3eff4/transformed/lifecycle-livedata-2.8.4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.4] /Users/vinod.tak/.gradle/caches/8.12/transforms/633c2c7d70ec11b9bb4b5f507bc3eff4/transformed/lifecycle-livedata-2.8.4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.4] /Users/vinod.tak/.gradle/caches/8.12/transforms/a398968b759e5351ef861176f25084fb/transformed/lifecycle-runtime-ktx-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.4] /Users/vinod.tak/.gradle/caches/8.12/transforms/a398968b759e5351ef861176f25084fb/transformed/lifecycle-runtime-ktx-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.4] /Users/vinod.tak/.gradle/caches/8.12/transforms/8092081cc4d1fc90ab353b5122584a4c/transformed/lifecycle-viewmodel-ktx-2.8.4/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.4] /Users/vinod.tak/.gradle/caches/8.12/transforms/8092081cc4d1fc90ab353b5122584a4c/transformed/lifecycle-viewmodel-ktx-2.8.4/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.8.4] /Users/vinod.tak/.gradle/caches/8.12/transforms/1f99bbf2a8250e0cea76e310b9c8cb16/transformed/lifecycle-livedata-ktx-2.8.4/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.8.4] /Users/vinod.tak/.gradle/caches/8.12/transforms/1f99bbf2a8250e0cea76e310b9c8cb16/transformed/lifecycle-livedata-ktx-2.8.4/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.4] /Users/vinod.tak/.gradle/caches/8.12/transforms/7092a94f4a947d089e38bfe712a47111/transformed/lifecycle-viewmodel-savedstate-2.8.4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.4] /Users/vinod.tak/.gradle/caches/8.12/transforms/7092a94f4a947d089e38bfe712a47111/transformed/lifecycle-viewmodel-savedstate-2.8.4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] /Users/vinod.tak/.gradle/caches/8.12/transforms/20e08e1ad223717e9d4d0d37e2dfd38b/transformed/core-ktx-1.13.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] /Users/vinod.tak/.gradle/caches/8.12/transforms/20e08e1ad223717e9d4d0d37e2dfd38b/transformed/core-ktx-1.13.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-splashscreen:1.0.1] /Users/vinod.tak/.gradle/caches/8.12/transforms/53186ece22feef2ddf32992b6902ae86/transformed/core-splashscreen-1.0.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-splashscreen:1.0.1] /Users/vinod.tak/.gradle/caches/8.12/transforms/53186ece22feef2ddf32992b6902ae86/transformed/core-splashscreen-1.0.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/vinod.tak/.gradle/caches/8.12/transforms/b936ebe3c5998e4894f578bc8fadc50c/transformed/annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/vinod.tak/.gradle/caches/8.12/transforms/b936ebe3c5998e4894f578bc8fadc50c/transformed/annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/vinod.tak/.gradle/caches/8.12/transforms/7f2e54d47c83350f10053cf68bf4ecf2/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/vinod.tak/.gradle/caches/8.12/transforms/7f2e54d47c83350f10053cf68bf4ecf2/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/vinod.tak/.gradle/caches/8.12/transforms/986d2f7d7b844128cade61e4771c1297/transformed/profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/vinod.tak/.gradle/caches/8.12/transforms/986d2f7d7b844128cade61e4771c1297/transformed/profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/vinod.tak/.gradle/caches/8.12/transforms/99830ee9f4ba4d284f94902b3871325d/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/vinod.tak/.gradle/caches/8.12/transforms/99830ee9f4ba4d284f94902b3871325d/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/vinod.tak/.gradle/caches/8.12/transforms/01b54107baa907dd35ec4ada5dc01007/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/vinod.tak/.gradle/caches/8.12/transforms/01b54107baa907dd35ec4ada5dc01007/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/vinod.tak/.gradle/caches/8.12/transforms/1102150f4019729174d3141603047690/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/vinod.tak/.gradle/caches/8.12/transforms/1102150f4019729174d3141603047690/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/vinod.tak/.gradle/caches/8.12/transforms/a4a4fb760e1b05822b6733c691baa613/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/vinod.tak/.gradle/caches/8.12/transforms/a4a4fb760e1b05822b6733c691baa613/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/vinod.tak/.gradle/caches/8.12/transforms/2df4d01364d9423188b0125112fcb31f/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/vinod.tak/.gradle/caches/8.12/transforms/2df4d01364d9423188b0125112fcb31f/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/vinod.tak/.gradle/caches/8.12/transforms/f47033b069c57c5fd6d9101a6756a0ba/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/vinod.tak/.gradle/caches/8.12/transforms/f47033b069c57c5fd6d9101a6756a0ba/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/vinod.tak/.gradle/caches/8.12/transforms/dd5f04f0ad837b880af1e9aec4c744b0/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/vinod.tak/.gradle/caches/8.12/transforms/dd5f04f0ad837b880af1e9aec4c744b0/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/vinod.tak/.gradle/caches/8.12/transforms/47e1288f07323e45923e615c70c6a251/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/vinod.tak/.gradle/caches/8.12/transforms/47e1288f07323e45923e615c70c6a251/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/vinod.tak/.gradle/caches/8.12/transforms/61874dcefdf75ca0533620f37cbcfe0d/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/vinod.tak/.gradle/caches/8.12/transforms/61874dcefdf75ca0533620f37cbcfe0d/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.dagger:dagger-lint-aar:2.50] /Users/vinod.tak/.gradle/caches/8.12/transforms/3966d7b4c4ca4f712348dea3e7d63f94/transformed/dagger-lint-aar-2.50/AndroidManifest.xml:18:3-42
+MERGED from [com.google.dagger:dagger-lint-aar:2.50] /Users/vinod.tak/.gradle/caches/8.12/transforms/3966d7b4c4ca4f712348dea3e7d63f94/transformed/dagger-lint-aar-2.50/AndroidManifest.xml:18:3-42
+	android:targetSdkVersion
+		INJECTED from /Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/vinod.tak/Documents/Projects/CascadeProjects/windsurf-project/app/src/main/AndroidManifest.xml
+service#androidx.health.platform.client.impl.sdkservice.HealthDataSdkService
+ADDED from [androidx.health.connect:connect-client:1.1.0-alpha06] /Users/vinod.tak/.gradle/caches/8.12/transforms/3ad64e2f93ff86de2ae2b403fd80bb97/transformed/connect-client-1.1.0-alpha06/AndroidManifest.xml:24:9-32:19
+	android:enabled
+		ADDED from [androidx.health.connect:connect-client:1.1.0-alpha06] /Users/vinod.tak/.gradle/caches/8.12/transforms/3ad64e2f93ff86de2ae2b403fd80bb97/transformed/connect-client-1.1.0-alpha06/AndroidManifest.xml:26:13-35
+	android:exported
+		ADDED from [androidx.health.connect:connect-client:1.1.0-alpha06] /Users/vinod.tak/.gradle/caches/8.12/transforms/3ad64e2f93ff86de2ae2b403fd80bb97/transformed/connect-client-1.1.0-alpha06/AndroidManifest.xml:27:13-36
+	tools:ignore
+		ADDED from [androidx.health.connect:connect-client:1.1.0-alpha06] /Users/vinod.tak/.gradle/caches/8.12/transforms/3ad64e2f93ff86de2ae2b403fd80bb97/transformed/connect-client-1.1.0-alpha06/AndroidManifest.xml:28:13-43
+	android:name
+		ADDED from [androidx.health.connect:connect-client:1.1.0-alpha06] /Users/vinod.tak/.gradle/caches/8.12/transforms/3ad64e2f93ff86de2ae2b403fd80bb97/transformed/connect-client-1.1.0-alpha06/AndroidManifest.xml:25:13-96
+intent-filter#action:name:androidx.health.platform.client.ACTION_BIND_SDK_SERVICE
+ADDED from [androidx.health.connect:connect-client:1.1.0-alpha06] /Users/vinod.tak/.gradle/caches/8.12/transforms/3ad64e2f93ff86de2ae2b403fd80bb97/transformed/connect-client-1.1.0-alpha06/AndroidManifest.xml:29:13-31:29
+action#androidx.health.platform.client.ACTION_BIND_SDK_SERVICE
+ADDED from [androidx.health.connect:connect-client:1.1.0-alpha06] /Users/vinod.tak/.gradle/caches/8.12/transforms/3ad64e2f93ff86de2ae2b403fd80bb97/transformed/connect-client-1.1.0-alpha06/AndroidManifest.xml:30:17-98
+	android:name
+		ADDED from [androidx.health.connect:connect-client:1.1.0-alpha06] /Users/vinod.tak/.gradle/caches/8.12/transforms/3ad64e2f93ff86de2ae2b403fd80bb97/transformed/connect-client-1.1.0-alpha06/AndroidManifest.xml:30:25-95
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/vinod.tak/.gradle/caches/8.12/transforms/a66c0a3d103324217cbb8779d49ccbb8/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.4] /Users/vinod.tak/.gradle/caches/8.12/transforms/d01baea34c13494d74f14deb345f5c93/transformed/lifecycle-process-2.8.4/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.4] /Users/vinod.tak/.gradle/caches/8.12/transforms/d01baea34c13494d74f14deb345f5c93/transformed/lifecycle-process-2.8.4/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/vinod.tak/.gradle/caches/8.12/transforms/986d2f7d7b844128cade61e4771c1297/transformed/profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/vinod.tak/.gradle/caches/8.12/transforms/986d2f7d7b844128cade61e4771c1297/transformed/profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/vinod.tak/.gradle/caches/8.12/transforms/a4a4fb760e1b05822b6733c691baa613/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/vinod.tak/.gradle/caches/8.12/transforms/a4a4fb760e1b05822b6733c691baa613/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/vinod.tak/.gradle/caches/8.12/transforms/a66c0a3d103324217cbb8779d49ccbb8/transformed/emoji2-1.3.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/vinod.tak/.gradle/caches/8.12/transforms/a66c0a3d103324217cbb8779d49ccbb8/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/vinod.tak/.gradle/caches/8.12/transforms/a66c0a3d103324217cbb8779d49ccbb8/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/vinod.tak/.gradle/caches/8.12/transforms/a66c0a3d103324217cbb8779d49ccbb8/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/vinod.tak/.gradle/caches/8.12/transforms/a66c0a3d103324217cbb8779d49ccbb8/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/vinod.tak/.gradle/caches/8.12/transforms/a66c0a3d103324217cbb8779d49ccbb8/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/vinod.tak/.gradle/caches/8.12/transforms/a66c0a3d103324217cbb8779d49ccbb8/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/vinod.tak/.gradle/caches/8.12/transforms/0226ff4ac1411fc1045c92bd52dc8d81/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] /Users/vinod.tak/.gradle/caches/8.12/transforms/0226ff4ac1411fc1045c92bd52dc8d81/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/vinod.tak/.gradle/caches/8.12/transforms/0226ff4ac1411fc1045c92bd52dc8d81/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+permission#com.example.healthconnectdemo.dev.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/vinod.tak/.gradle/caches/8.12/transforms/0226ff4ac1411fc1045c92bd52dc8d81/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] /Users/vinod.tak/.gradle/caches/8.12/transforms/0226ff4ac1411fc1045c92bd52dc8d81/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/vinod.tak/.gradle/caches/8.12/transforms/0226ff4ac1411fc1045c92bd52dc8d81/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/vinod.tak/.gradle/caches/8.12/transforms/0226ff4ac1411fc1045c92bd52dc8d81/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/vinod.tak/.gradle/caches/8.12/transforms/0226ff4ac1411fc1045c92bd52dc8d81/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+uses-permission#com.example.healthconnectdemo.dev.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/vinod.tak/.gradle/caches/8.12/transforms/0226ff4ac1411fc1045c92bd52dc8d81/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/vinod.tak/.gradle/caches/8.12/transforms/0226ff4ac1411fc1045c92bd52dc8d81/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.8.4] /Users/vinod.tak/.gradle/caches/8.12/transforms/d01baea34c13494d74f14deb345f5c93/transformed/lifecycle-process-2.8.4/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.4] /Users/vinod.tak/.gradle/caches/8.12/transforms/d01baea34c13494d74f14deb345f5c93/transformed/lifecycle-process-2.8.4/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.4] /Users/vinod.tak/.gradle/caches/8.12/transforms/d01baea34c13494d74f14deb345f5c93/transformed/lifecycle-process-2.8.4/AndroidManifest.xml:30:17-78
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/vinod.tak/.gradle/caches/8.12/transforms/986d2f7d7b844128cade61e4771c1297/transformed/profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/vinod.tak/.gradle/caches/8.12/transforms/986d2f7d7b844128cade61e4771c1297/transformed/profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/vinod.tak/.gradle/caches/8.12/transforms/986d2f7d7b844128cade61e4771c1297/transformed/profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/vinod.tak/.gradle/caches/8.12/transforms/986d2f7d7b844128cade61e4771c1297/transformed/profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/vinod.tak/.gradle/caches/8.12/transforms/986d2f7d7b844128cade61e4771c1297/transformed/profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/vinod.tak/.gradle/caches/8.12/transforms/986d2f7d7b844128cade61e4771c1297/transformed/profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/vinod.tak/.gradle/caches/8.12/transforms/986d2f7d7b844128cade61e4771c1297/transformed/profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/vinod.tak/.gradle/caches/8.12/transforms/986d2f7d7b844128cade61e4771c1297/transformed/profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/vinod.tak/.gradle/caches/8.12/transforms/986d2f7d7b844128cade61e4771c1297/transformed/profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/vinod.tak/.gradle/caches/8.12/transforms/986d2f7d7b844128cade61e4771c1297/transformed/profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/vinod.tak/.gradle/caches/8.12/transforms/986d2f7d7b844128cade61e4771c1297/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/vinod.tak/.gradle/caches/8.12/transforms/986d2f7d7b844128cade61e4771c1297/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/vinod.tak/.gradle/caches/8.12/transforms/986d2f7d7b844128cade61e4771c1297/transformed/profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/vinod.tak/.gradle/caches/8.12/transforms/986d2f7d7b844128cade61e4771c1297/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/vinod.tak/.gradle/caches/8.12/transforms/986d2f7d7b844128cade61e4771c1297/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/vinod.tak/.gradle/caches/8.12/transforms/986d2f7d7b844128cade61e4771c1297/transformed/profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/vinod.tak/.gradle/caches/8.12/transforms/986d2f7d7b844128cade61e4771c1297/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/vinod.tak/.gradle/caches/8.12/transforms/986d2f7d7b844128cade61e4771c1297/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/vinod.tak/.gradle/caches/8.12/transforms/986d2f7d7b844128cade61e4771c1297/transformed/profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/vinod.tak/.gradle/caches/8.12/transforms/986d2f7d7b844128cade61e4771c1297/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/vinod.tak/.gradle/caches/8.12/transforms/986d2f7d7b844128cade61e4771c1297/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:25-92

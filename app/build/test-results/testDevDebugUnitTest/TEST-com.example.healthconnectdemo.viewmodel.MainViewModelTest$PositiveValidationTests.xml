@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Positive Temperature Validation Tests" tests="11" skipped="0" failures="0" errors="0" timestamp="2025-10-07T12:20:39" hostname="V93323QPCG" time="0.012">
+  <properties/>
+  <testcase name="Should validate temperature with decimal precision" classname="com.example.healthconnectdemo.viewmodel.MainViewModelTest$PositiveValidationTests" time="0.001"/>
+  <testcase name="Should validate minimum boundary temperature 20°C" classname="com.example.healthconnectdemo.viewmodel.MainViewModelTest$PositiveValidationTests" time="0.001"/>
+  <testcase name="Should validate maximum boundary temperature 45°C" classname="com.example.healthconnectdemo.viewmodel.MainViewModelTest$PositiveValidationTests" time="0.0"/>
+  <testcase name="Valid temperature: 20.0°C" classname="com.example.healthconnectdemo.viewmodel.MainViewModelTest$PositiveValidationTests" time="0.001"/>
+  <testcase name="Valid temperature: 25.5°C" classname="com.example.healthconnectdemo.viewmodel.MainViewModelTest$PositiveValidationTests" time="0.001"/>
+  <testcase name="Valid temperature: 30.0°C" classname="com.example.healthconnectdemo.viewmodel.MainViewModelTest$PositiveValidationTests" time="0.0"/>
+  <testcase name="Valid temperature: 36.5°C" classname="com.example.healthconnectdemo.viewmodel.MainViewModelTest$PositiveValidationTests" time="0.001"/>
+  <testcase name="Valid temperature: 37.0°C" classname="com.example.healthconnectdemo.viewmodel.MainViewModelTest$PositiveValidationTests" time="0.001"/>
+  <testcase name="Valid temperature: 40.0°C" classname="com.example.healthconnectdemo.viewmodel.MainViewModelTest$PositiveValidationTests" time="0.001"/>
+  <testcase name="Valid temperature: 45.0°C" classname="com.example.healthconnectdemo.viewmodel.MainViewModelTest$PositiveValidationTests" time="0.001"/>
+  <testcase name="Should validate normal body temperature" classname="com.example.healthconnectdemo.viewmodel.MainViewModelTest$PositiveValidationTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Negative Temperature Validation Tests" tests="18" skipped="0" failures="0" errors="0" timestamp="2025-10-07T12:20:39" hostname="V93323QPCG" time="0.032">
+  <properties/>
+  <testcase name="Invalid temperature: " classname="com.example.healthconnectdemo.viewmodel.MainViewModelTest$NegativeValidationTests" time="0.001"/>
+  <testcase name="Invalid temperature: abc" classname="com.example.healthconnectdemo.viewmodel.MainViewModelTest$NegativeValidationTests" time="0.0"/>
+  <testcase name="Invalid temperature: 36.5.5" classname="com.example.healthconnectdemo.viewmodel.MainViewModelTest$NegativeValidationTests" time="0.001"/>
+  <testcase name="Invalid temperature: not a number" classname="com.example.healthconnectdemo.viewmodel.MainViewModelTest$NegativeValidationTests" time="0.001"/>
+  <testcase name="Invalid temperature: temp" classname="com.example.healthconnectdemo.viewmodel.MainViewModelTest$NegativeValidationTests" time="0.001"/>
+  <testcase name="Invalid temperature: ##" classname="com.example.healthconnectdemo.viewmodel.MainViewModelTest$NegativeValidationTests" time="0.001"/>
+  <testcase name="Invalid temperature: null" classname="com.example.healthconnectdemo.viewmodel.MainViewModelTest$NegativeValidationTests" time="0.001"/>
+  <testcase name="Should reject null or empty input" classname="com.example.healthconnectdemo.viewmodel.MainViewModelTest$NegativeValidationTests" time="0.001"/>
+  <testcase name="Should reject special characters" classname="com.example.healthconnectdemo.viewmodel.MainViewModelTest$NegativeValidationTests" time="0.001"/>
+  <testcase name="Temperature above maximum: 45.1°C" classname="com.example.healthconnectdemo.viewmodel.MainViewModelTest$NegativeValidationTests" time="0.001"/>
+  <testcase name="Temperature above maximum: 50.0°C" classname="com.example.healthconnectdemo.viewmodel.MainViewModelTest$NegativeValidationTests" time="0.001"/>
+  <testcase name="Temperature above maximum: 60.0°C" classname="com.example.healthconnectdemo.viewmodel.MainViewModelTest$NegativeValidationTests" time="0.001"/>
+  <testcase name="Temperature above maximum: 100.0°C" classname="com.example.healthconnectdemo.viewmodel.MainViewModelTest$NegativeValidationTests" time="0.004"/>
+  <testcase name="Temperature below minimum: 19.9°C" classname="com.example.healthconnectdemo.viewmodel.MainViewModelTest$NegativeValidationTests" time="0.001"/>
+  <testcase name="Temperature below minimum: 15.0°C" classname="com.example.healthconnectdemo.viewmodel.MainViewModelTest$NegativeValidationTests" time="0.001"/>
+  <testcase name="Temperature below minimum: 10.0°C" classname="com.example.healthconnectdemo.viewmodel.MainViewModelTest$NegativeValidationTests" time="0.0"/>
+  <testcase name="Temperature below minimum: 0.0°C" classname="com.example.healthconnectdemo.viewmodel.MainViewModelTest$NegativeValidationTests" time="0.001"/>
+  <testcase name="Temperature below minimum: -5.0°C" classname="com.example.healthconnectdemo.viewmodel.MainViewModelTest$NegativeValidationTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
